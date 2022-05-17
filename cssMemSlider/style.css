@@ -126,7 +126,14 @@ body{
 	border: 0.1rem solid rgb(236, 29, 29);
 }
 
-/* ----------------IMG SLIDER------------------------ */
+#btn-1:active ~ .wrap-container label:nth-child(1) span,
+#btn-2:active ~ .wrap-container label:nth-child(2) span,
+#btn-3:active ~ .wrap-container label:nth-child(3) span,
+#btn-4:active ~ .wrap-container label:nth-child(4) span{
+	background-color:rgb(192, 243, 182);
+
+}
+/* --------------IMG SLIDER------------------------ */
 #btn-1:checked ~ .container-mems .sliders{
 	margin-left: 0%;
 }
